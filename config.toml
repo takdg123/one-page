@@ -1,0 +1,4 @@
+baseURL = "https://sopranoserin.xyz/"
+languageCode = "en-us"
+title = "Soprano Serin Park"
+theme = "hugo-scroll"
