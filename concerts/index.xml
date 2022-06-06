@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Soprano Serin Park</title>
-    <link>https://sopranoserin.xyz/</link>
-    <description>Recent content on Soprano Serin Park</description>
+    <title>Concerts on Soprano Serin Park</title>
+    <link>https://sopranoserin.xyz/concerts/</link>
+    <description>Recent content in Concerts on Soprano Serin Park</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://sopranoserin.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://sopranoserin.xyz/concerts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Solo Concert at Artist Homes on Jun 23, 2022 at 20:00</title>
       <link>https://sopranoserin.xyz/concerts/artist_homes/</link>
