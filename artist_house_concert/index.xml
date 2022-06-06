@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Soprano Serin Park</title>
-    <link>https://sopranoserin.xyz/</link>
+    <link>https://sopranoserin.xyz/artist_house_concert/</link>
     <description>Recent content on Soprano Serin Park</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://sopranoserin.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://sopranoserin.xyz/artist_house_concert/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Concert</title>
       <link>https://sopranoserin.xyz/artist_house_concert/concert/</link>
