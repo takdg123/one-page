@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://sopranoserin.xyz/concerts/artist_homes/de/</loc>
-  </url><url>
-    <loc>https://sopranoserin.xyz/concerts/artist_homes/en/</loc>
-  </url><url>
-    <loc>https://sopranoserin.xyz/concerts/artist_homes/kr/</loc>
-  </url><url>
-    <loc>https://sopranoserin.xyz/</loc>
-  </url><url>
-    <loc>https://sopranoserin.xyz/categories/</loc>
-  </url><url>
-    <loc>https://sopranoserin.xyz/concerts/</loc>
-  </url><url>
-    <loc>https://sopranoserin.xyz/tags/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://sopranoserin.xyz/de/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://sopranoserin.xyz/en/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>
