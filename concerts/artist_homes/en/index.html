@@ -22,23 +22,6 @@
   type="text/css"
 />
 
-<meta property="og:title" content="Solo Concert at Artist Homes on Jun 23, 2022 at 20:00" />
-<meta property="og:description" content="Programs F. Liszt - O Lieb, so lang du lieben kannst Ch. Gounod - O Dieu, que de bijoux ‚,Faust“ G. Donizetti - Regnava nel Silenzio ,,Lucia di Lammermoor“ W. A. Mozart - O zittre nicht, mein lieber Sohn ,,Die Zauberflöte“ Hyo Guen Kim - A Thousand Winds Place / Time The concert will be held at Artist Homes in Berlin on June 23, 2022 at 8 pm, which will last about an hour." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://sopranoserin.xyz/concerts/artist_homes/en/" /><meta property="article:section" content="concerts" />
-
-<meta property="og:site_name" content="Lyrische Sopranistin Serin Park" />
-
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Solo Concert at Artist Homes on Jun 23, 2022 at 20:00"/>
-<meta name="twitter:description" content="Programs F. Liszt - O Lieb, so lang du lieben kannst Ch. Gounod - O Dieu, que de bijoux ‚,Faust“ G. Donizetti - Regnava nel Silenzio ,,Lucia di Lammermoor“ W. A. Mozart - O zittre nicht, mein lieber Sohn ,,Die Zauberflöte“ Hyo Guen Kim - A Thousand Winds Place / Time The concert will be held at Artist Homes in Berlin on June 23, 2022 at 8 pm, which will last about an hour."/>
-
-<meta itemprop="name" content="Solo Concert at Artist Homes on Jun 23, 2022 at 20:00">
-<meta itemprop="description" content="Programs F. Liszt - O Lieb, so lang du lieben kannst Ch. Gounod - O Dieu, que de bijoux ‚,Faust“ G. Donizetti - Regnava nel Silenzio ,,Lucia di Lammermoor“ W. A. Mozart - O zittre nicht, mein lieber Sohn ,,Die Zauberflöte“ Hyo Guen Kim - A Thousand Winds Place / Time The concert will be held at Artist Homes in Berlin on June 23, 2022 at 8 pm, which will last about an hour.">
-
-<meta itemprop="wordCount" content="582">
-<meta itemprop="keywords" content="" />
 
 
 
@@ -88,7 +71,28 @@
      }
 </style> 
 
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function() {
+       emailjs.init('user_wEHfj470D3Hay8ABEu1Ne');
+   })();
+</script>
 
+<script type="text/javascript">
+   window.onload = function() {
+       document.getElementById('contact-form').addEventListener('submit', function(event) {
+           event.preventDefault();
+
+           
+           emailjs.sendForm('service_dt1r4gr', 'template_xobaxrg', this)
+               .then(function() {
+                   console.log('SUCCESS!');
+               }, function(error) {
+                   console.log('FAILED...', error);
+               });
+       });
+   }
+</script>
 
 
 
@@ -105,6 +109,7 @@
 </div></div>
 
 <main class="content page-template page-" role="main">
+
   <div class="concert_image" style=" background-image: url(../../../images/cover_concert.jpg); 
   ">
 
@@ -123,7 +128,10 @@
         </div>
         <section class="post-content" style="z-index:5;">
           
-          <h3 id="programs">Programs</h3>
+          
+<div class="white_block">
+
+<h3 id="programs">Programs</h3>
 <ol>
 <li>F. Liszt - O Lieb, so lang du lieben kannst</li>
 <li>Ch. Gounod - O Dieu, que de bijoux ‚,Faust“</li>
@@ -131,15 +139,21 @@
 <li>W. A. Mozart - O zittre nicht, mein lieber Sohn ,,Die Zauberflöte“</li>
 <li>Hyo Guen Kim - A Thousand Winds</li>
 </ol>
+<p>
+</div>
+
 
 <div class="black_block">
-
+</p>
 <h3 id="place--time">Place / Time</h3>
 <p>The concert will be held at <a href="https://artist-homes.com/">Artist Homes</a> in Berlin on June 23, 2022 at 8 pm, which will last about an hour. The Artist Homes provides an unique place for concerts and exhibitions and supports ambitious young artists.</p>
 <p>The proceeds raised by this charity concert will be donated to the Ukraine refugees who are in need of help. Additionally, part of it will also be used for the preparation of this concert.</p>
-<p>&ndash; Place: 
+<p>
+<div style="border: 5px solid white; padding: 5px 5px 5px 5px; margin: 5px 5px 5px 5px">
+
+&ndash; Place: 
 <b>
-<a href="https://www.google.com/maps/place/ARTIST+HOMES/@52.4802851,13.2852659,17z/data=!3m1!4b1!4m5!3m4!1s0x47a850a3525a3357:0x819e2a3356df5858!8m2!3d52.4802851!4d13.2874546">Artist Homes, Hohenzollerndamm 120, 14199 Berlin, Germany</a>
+<a href="https://www.google.com/maps/place/ARTIST+HOMES/@52.4802851,13.2852659,17z/data=!3m1!4b1!4m5!3m4!1s0x47a850a3525a3357:0x819e2a3356df5858!8m2!3d52.4802851!4d13.2874546">Hohenzollerndamm 120, 14199 Berlin, Germany</a>
 </b>
 </p>
 <p>&ndash; Time: 
@@ -147,9 +161,16 @@
 </p>
 <p>&ndash; Ticket: 
 <b>10 euros.</b>
- If you want to book a ticket in advance, see below.</p>
+</p>
 
 </div>
+
+<p>If you want to book a ticket in advance, see below. You can also purchase a ticket on site.</p>
+
+</div>
+
+
+<div class="white_block">
 
 <h3 id="about-programs">About programs</h3>
 <ol>
@@ -171,24 +192,69 @@ Lucia looks in the fountain and sees someone waving at her. The maid had killed 
 </li>
 </ol>
 
+</div>
+
+
 <div class="black_block">
 
 <h3 id="book-a-ticket">Book a ticket</h3>
+<p>You can purchase a ticket by the bank transfer payment (10 euros each) to our bank account.</p>
+<p>
+<div style="border: 5px solid white; padding: 5px 5px 5px 5px; margin: 5px 5px 5px 5px">
+
+&ndash; Account holder: Bong Kyeom Kim</p>
+<p>&ndash; IBAN: DE31 1001 1001 2625 4444 21</p>
+<p>&ndash; BIC: NTSBDEB1XXX
 
 </div>
+</p>
+<p>Please mention your first and last name and &ldquo;ticket&rdquo; in the &ldquo;subject&rdquo; field of your bank transfer.</p>
+<p>
+</div>
 
+
+<div class="white_block">
+</p>
 <h3 id="contact">Contact</h3>
 <p>If you have any questions, feel free to contact us,
 <a href="mailto:soprano.serin@gmail.com">soprano.serin@gmail.com</a></p>
 
+</div>
+
+
           
         </section>
       </div>
-    </article>
-    </div>
-    
+
+    </article><div style="background-color: black; color:white; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;">
+<article class="post" style="margin-top: 0px; padding-top: 10px; padding-bottom: 10px">
+    <h6> Let us get in touch!</h6>
+    <form id="contact-form">
+    	To subscribe my news and updates,
+        <input class="email_box" type="email" name="address" placeholder="send me your address">
+        <input class="send_box" type="submit" value="Send">
+    </form>
+</article>
+</div>
+
+
+</div>
+     
   </div>
+
   </main>
+<div style="background-color: black; color:white; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;">
+<article class="post" style="margin-top: 0px; padding-top: 10px; padding-bottom: 10px">
+    <h6> Let us get in touch!</h6>
+    <form id="contact-form">
+    	To subscribe my news and updates,
+        <input class="email_box" type="email" name="address" placeholder="send me your address">
+        <input class="send_box" type="submit" value="Send">
+    </form>
+</article>
+</div>
+
+
 
     <script type="text/javascript" src='https://sopranoserin.xyz/js/jquery-1.11.3.min.js'></script>
 

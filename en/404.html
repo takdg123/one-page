@@ -22,18 +22,6 @@
   type="text/css"
 />
 
-<meta property="og:title" content="404 Page not found" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://sopranoserin.xyz/en/404.html" /><meta property="og:site_name" content="Lyric Soprano Serin Park" />
-
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="404 Page not found"/>
-<meta name="twitter:description" content=""/>
-
-<meta itemprop="name" content="404 Page not found">
-<meta itemprop="description" content="">
 
 
 
@@ -83,7 +71,28 @@
      }
 </style> 
 
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function() {
+       emailjs.init('user_wEHfj470D3Hay8ABEu1Ne');
+   })();
+</script>
 
+<script type="text/javascript">
+   window.onload = function() {
+       document.getElementById('contact-form').addEventListener('submit', function(event) {
+           event.preventDefault();
+
+           
+           emailjs.sendForm('service_dt1r4gr', 'template_xobaxrg', this)
+               .then(function() {
+                   console.log('SUCCESS!');
+               }, function(error) {
+                   console.log('FAILED...', error);
+               });
+       });
+   }
+</script>
 
 
 
@@ -113,6 +122,18 @@
       </section>
     </article>
   </main>
+<div style="background-color: black; color:white; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;">
+<article class="post" style="margin-top: 0px; padding-top: 10px; padding-bottom: 10px">
+    <h6> Let us get in touch!</h6>
+    <form id="contact-form">
+    	To subscribe my news and updates,
+        <input class="email_box" type="email" name="address" placeholder="send me your address">
+        <input class="send_box" type="submit" value="Send">
+    </form>
+</article>
+</div>
+
+
 
     <script type="text/javascript" src='https://sopranoserin.xyz/js/jquery-1.11.3.min.js'></script>
 

@@ -22,23 +22,6 @@
   type="text/css"
 />
 
-<meta property="og:title" content="Solo Concert at Artist Homes on Jun 23, 2022 at 20:00" />
-<meta property="og:description" content="Programs F. Liszt - O Lieb, so lang du lieben kannst Ch. Gounod - O Dieu, que de bijoux ‚,Faust“ G. Donizetti - Regnava nel Silenzio ,,Lucia di Lammermoor“ W. A. Mozart - O zittre nicht, mein lieber Sohn ,,Die Zauberflöte“ 김효근 - 내 영혼 바람되어 Time / Location The concert will be held at the Artist Homes in Berlin, https://artist-homes.com/ on Jun 23, 2022 at 20:00. The Artist Homes is XXX." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://sopranoserin.xyz/concerts/artist_homes/kr/" /><meta property="article:section" content="concerts" />
-
-<meta property="og:site_name" content="Lyrische Sopranistin Serin Park" />
-
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Solo Concert at Artist Homes on Jun 23, 2022 at 20:00"/>
-<meta name="twitter:description" content="Programs F. Liszt - O Lieb, so lang du lieben kannst Ch. Gounod - O Dieu, que de bijoux ‚,Faust“ G. Donizetti - Regnava nel Silenzio ,,Lucia di Lammermoor“ W. A. Mozart - O zittre nicht, mein lieber Sohn ,,Die Zauberflöte“ 김효근 - 내 영혼 바람되어 Time / Location The concert will be held at the Artist Homes in Berlin, https://artist-homes.com/ on Jun 23, 2022 at 20:00. The Artist Homes is XXX."/>
-
-<meta itemprop="name" content="Solo Concert at Artist Homes on Jun 23, 2022 at 20:00">
-<meta itemprop="description" content="Programs F. Liszt - O Lieb, so lang du lieben kannst Ch. Gounod - O Dieu, que de bijoux ‚,Faust“ G. Donizetti - Regnava nel Silenzio ,,Lucia di Lammermoor“ W. A. Mozart - O zittre nicht, mein lieber Sohn ,,Die Zauberflöte“ 김효근 - 내 영혼 바람되어 Time / Location The concert will be held at the Artist Homes in Berlin, https://artist-homes.com/ on Jun 23, 2022 at 20:00. The Artist Homes is XXX.">
-
-<meta itemprop="wordCount" content="310">
-<meta itemprop="keywords" content="" />
 
 
 
@@ -88,7 +71,28 @@
      }
 </style> 
 
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function() {
+       emailjs.init('user_wEHfj470D3Hay8ABEu1Ne');
+   })();
+</script>
 
+<script type="text/javascript">
+   window.onload = function() {
+       document.getElementById('contact-form').addEventListener('submit', function(event) {
+           event.preventDefault();
+
+           
+           emailjs.sendForm('service_dt1r4gr', 'template_xobaxrg', this)
+               .then(function() {
+                   console.log('SUCCESS!');
+               }, function(error) {
+                   console.log('FAILED...', error);
+               });
+       });
+   }
+</script>
 
 
 
@@ -105,6 +109,7 @@
 </div></div>
 
 <main class="content page-template page-" role="main">
+
   <div class="concert_image" >
 
     <article class="post page" style="z-index:3;">
@@ -145,11 +150,36 @@
           
         </section>
       </div>
-    </article>
-    </div>
-    
+
+    </article><div style="background-color: black; color:white; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;">
+<article class="post" style="margin-top: 0px; padding-top: 10px; padding-bottom: 10px">
+    <h6> Let us get in touch!</h6>
+    <form id="contact-form">
+    	To subscribe my news and updates,
+        <input class="email_box" type="email" name="address" placeholder="send me your address">
+        <input class="send_box" type="submit" value="Send">
+    </form>
+</article>
+</div>
+
+
+</div>
+     
   </div>
+
   </main>
+<div style="background-color: black; color:white; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;">
+<article class="post" style="margin-top: 0px; padding-top: 10px; padding-bottom: 10px">
+    <h6> Let us get in touch!</h6>
+    <form id="contact-form">
+    	To subscribe my news and updates,
+        <input class="email_box" type="email" name="address" placeholder="send me your address">
+        <input class="send_box" type="submit" value="Send">
+    </form>
+</article>
+</div>
+
+
 
     <script type="text/javascript" src='https://sopranoserin.xyz/js/jquery-1.11.3.min.js'></script>
 
