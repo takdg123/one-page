@@ -22,9 +22,13 @@
 }
 
 .email_box{
+	
 	border: none;
 	border-bottom: 2px solid white;
 	background-color: transparent;
+}
+.email_box:focus{
+	color: white;
 }
 
 .send_box{
