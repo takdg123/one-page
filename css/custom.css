@@ -19,7 +19,72 @@
 	background-position: center; 
 	background-repeat:no-repeat; 
 	background-attachment: fixed;
+	margin:0;
+	padding: 0;
+
 }
+
+.highlight_block{
+	border: 5px solid white; 
+	padding: 5px 5px 5px 5px; 
+	margin: 5px 5px 5px 5px;
+}
+
+.mobile_image{
+	background-position: -9999px -9999px;
+	}
+
+.mobile_post{
+	padding: 30px 20px 30px 20px; 
+	margin-top:100px
+}
+
+.top_header{
+	background-color: rgba(255, 255, 255, 0.4); 
+	width: 100%; 
+	margin: 0px 0px 0px 0px; 
+}
+
+@media only screen and (max-width: 600px) {
+	.concert_image{
+	background-color: #E2E2E2;
+	width:100%; 
+	background-size: 700px; 
+	z-index:1; 
+	position: absolute; 
+	background-position: center; 
+	background-repeat:no-repeat; 
+	background-attachment: fixed;
+	background-position: -9999px -9999px;
+
+	}
+	.top_header{
+	background-color: rgba(255, 255, 255, 0.4); 
+	width: 100%; 
+	margin: 0px 0px 0px 0px; 
+	padding: 0px 0px 0px 0px;
+	}	
+
+	.mobile_image{
+	width: 100%;
+	height: 0;
+	display: inline-block;
+	background-position: center; 
+	background-size:  contain;
+	background-repeat:no-repeat; 
+	padding: 0;
+	margin:  0;
+	padding-top: 66.64%; /* (img-height / img-width * container-width) */
+                /* (853 / 1280 * 100) */
+	}
+
+	.mobile_post{
+	padding: 30px 20px 30px 20px; 
+	margin-top:0px
+}
+}
+
+
 
 .email_box{
 	
